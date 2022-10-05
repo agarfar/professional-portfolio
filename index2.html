@@ -10,7 +10,7 @@
 <body>
     <header>
         <!-- Header with navigation bar and working links at the top of the page-->
-        <h1>Farris</h1>
+        <h1>Anthony Farris</h1>
         <nav>
             <!--Navigation Bar-->
             <ul>
@@ -37,8 +37,8 @@
     </figure>
     <main>
         <section id="about-me">
-            <h1>About Me</h1>
-            <section class="description">
+            <h1 class="section-title">About Me</h1>
+            <div class="description">
                 <p>
                     I am a San Diego native with a longstanding love of the ocean and the outdoors. My experience
                     includes utilizing remote sensing techniques and geospatial analyses to develop comprehensive
@@ -48,53 +48,58 @@
                     I wish to further my programming and developer skills to attain a developer role within the field of
                     Geographic Information Systems.
                 </p>
-            </section>
+            </div>
         </section>
 
         <section id="work">
-            <h1>Work</h1>
+            <h1 class="section-title">Work</h1>
 
-                <figure class="main-app">
-                    <!-- <img src="./assets/images/Horiseon.png" alt="Horiseon"> -->
-                </figure>
-                <figure class="other-app">
-                    <!-- <img src="./assets/images/Placeholder.jpg" alt="Placeholder"> -->
-                </figure>
-                <figure class="other-app">
-                    <!-- <img src="./assets/images/Placeholder.jpg" alt="Placeholder"> -->
-                </figure>
-                <figure class="other-app">
-                    <!-- <img src="./assets/images/Placeholder.jpg" alt="Placeholder"> -->
-                </figure>
-                <figure class="other-app">
-                    <!-- <img src="./assets/images/Placeholder.jpg" alt="Placeholder"> -->
-                </figure>
-            
+            <div class="flex-container">
+                <div class="work-app">
+                    <figure class="main-app">
+                        <img src="./assets/images/Horiseon.png" alt="Horiseon">
+                    </figure>
+                    <div>
+                        <figure class="other-app flex-left">
+                            <div class="info">
 
+                                <h2>Work</h2>
+                                <h3>Description</h3>
+                            </div>
+                            <img src="./assets/images/Placeholder.jpg" alt="Placeholder">
+                        </figure>
+                        <figure class="other-app flex-left">
+                            <div class="info">
 
-            <!-- <section class="apps">
-                <figure class="main-app">
-                    <img src="./assets/images/Horiseon.png" alt="Horiseon">
-                </figure> -->
-            <!-- <section class="flex-container">
-                    <figure class="flex-item-left">
-                        <img src="./assets/images/Placeholder.jpg" alt="Placeholder">
-                    </figure>
-                    <figure class="flex-item-right">
-                        <img src="./assets/images/Placeholder.jpg" alt="Placeholder">
-                    </figure>
-                    <figure class="flex-item-left">
-                        <img src="./assets/images/Placeholder.jpg" alt="Placeholder">
-                    </figure>
-                    <figure class="flex-item-right">
-                        <img src="./assets/images/Placeholder.jpg" alt="Placeholder">
-                    </figure>
-                </section> -->
-            <!-- </section> -->
+                                <h2>Work</h2>
+                                <h3>Description</h3>
+                            </div>
+                            <img src="./assets/images/Placeholder.jpg" alt="Placeholder">
+                        </figure>
+                        <figure class="other-app flex-right">
+                            <div class="info">
+
+                                <h2>Work</h2>
+                                <h3>Description</h3>
+                            </div>
+                            <img src="./assets/images/Placeholder.jpg" alt="Placeholder">
+                        </figure>
+                        <figure class="other-app flex-left">
+                            <div class="info">
+
+                                <h2>Work</h2>
+                                <h3>Description</h3>
+                            </div>
+                            <img src="./assets/images/Placeholder.jpg" alt="Placeholder">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <section id="contact-me">
-            <h1>Contact Me</h1>
+            <h1 class="section-title">Contact Me</h1>
             <nav class="contacts">
                 <!--Contact Links-->
                 <ul class="contacts contact-list">
@@ -104,7 +109,7 @@
                         <p>
                     </li>
                     <li>
-                        <a href="#work">afarris538@gmail.com</a>
+                        <a href="mailto: afarris538@gmail.com">afarris538@gmail.com</a>
                     </li>
                     <li>
                         <a href="https://github.com/agarfar">GitHub</a>
