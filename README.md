@@ -23,7 +23,7 @@ Instructions:
 
 The website should resemble the attached screenshot:
 
-![Portfolio Screenshot](assets/images/screenshot.png)
+![Portfolio Screenshot](assets/images/Portfolio.png)
 
 ## Credits
 

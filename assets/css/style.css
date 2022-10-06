@@ -18,7 +18,8 @@ header {
     justify-content: space-between;
     padding: 0;
 
-}
+} 
+/* Header element */
 
 header h1 {
     background-color: var(--blue-gray);
@@ -43,6 +44,7 @@ header nav {
     justify-content: flex-end;
     width: 100%;
 }
+/* Header navigation bar */
 
 header nav ul {
     list-style-type: none;
@@ -61,10 +63,12 @@ header nav ul li {
 
 
 section h1 {
-    color: var (navy-gray);
+    color: var(--navy-gray);
     display: inline-block;
     padding-left: 10%;
 }
+
+/* Main section headers on left of webpage */
 
 a {
     color: var(--blue-gray);
@@ -80,6 +84,7 @@ a {
     background-position: center;
     margin: 0;
 }
+/* Main image banner */
 
 .main-image section {
     display: flex;
@@ -97,19 +102,21 @@ figcaption {
     margin-right: 40px;
     font-size: xx-large;
     color: rgb(62, 65, 65);
-    
-
 }
+/* Main image caption */
 
 main {
     display: flex;
     flex-direction: column;
 }
+/* main content area in flexed column of separate rows/sections */
 
 main section {
     display: flex;
     flex-direction: row;
 }
+
+/* each content area/section is a row on top of one another */
 
 main section .description p {
     padding-left: 40px;
@@ -131,8 +138,6 @@ main section .description p {
     color: var(--navy-gray);
 }
 
-.main-app {}
-
 .large {
     object-fit: cover;
     width: 100%;
@@ -153,12 +158,15 @@ main section .description p {
     padding-top: 20px;
 }
 
+/* contains all flexed application/placeholder images */
+
 .flex-item-center {
     flex: 100%;
     height: 400px;
     position: relative;
 }
 
+/* flexes main/larger app to span entire in Work section */
 
 .flex-item-left {
     flex: 1 1 49%;
@@ -168,7 +176,7 @@ main section .description p {
     height: 250px;
     position: relative;
 }
-
+/* flexes secondary/smaller apps to the left in Work section */
 
 .flex-item-right {
     flex: 1 1 49%;
@@ -179,7 +187,7 @@ main section .description p {
     position: relative;
 }
 
-
+/* flexes secondary/smaller apps to the right in Work section */
 
 .highlight {
     background-color: gold;
@@ -190,6 +198,8 @@ main section .description p {
     border: 1px solid gold;
 
 }
+
+/* the above two classes create a highlight effect when hovering over application images in Work section */
 
 
 .flex-item-center .info,
@@ -204,6 +214,8 @@ main section .description p {
     color: rgb(62, 65, 65);
     font-size: smaller;
 }
+
+/* positions labels in bottom left corner of application divs in Work section */
 
 .contacts {
     display: flex;
@@ -222,14 +234,15 @@ main section .description p {
     padding-right: 40px;
     color: var(--navy-gray);
 }
+/* properties for list of contact information in Contact Me section*/
 
 section nav ul li a {
     color: var(--navy-gray);
 }
 
 @media screen and (max-width: 992) {
-    body{
-        font-size:large;
+    *{
+        font-size:smaller;
     }
     
 }
@@ -244,3 +257,4 @@ section nav ul li a {
         flex-direction: column;
     }
 }
+/* flexes items to fall underneath each other at narrower screen sizes */
